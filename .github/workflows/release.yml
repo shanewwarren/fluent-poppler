@@ -31,6 +31,9 @@ jobs:
         run: pnpm install --frozen-lockfile
         shell: bash
 
+      - name: Install Poppler
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+
       - name: Run Tests
         run: pnpm test
 
