@@ -1,6 +1,11 @@
 # Fluent poppler-api for Node.js
 
-A Node.js wrapper for pdftoppm (from poppler-utils) that converts PDF files to various image formats with extensive configuration options.
+A Node.js wrapper for:
+- [pdfinfo](https://manpages.debian.org/testing/poppler-utils/pdfinfo.1.en.html) - To extract metadata and information from a pdf.
+
+
+
+- [pdftoppm](https://manpages.debian.org/testing/poppler-utils/pdftoppm.1.en.html) - Convert pdfs to images.
 
 ## Installation
 
