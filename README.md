@@ -1,4 +1,6 @@
 # Fluent poppler-api for Node.js
+![Test Status](https://github.com/shanewwarren/fluent-poppler/actions/workflows/test.yml/badge.svg)
+![Build Status](https://github.com/shanewwarren/fluent-poppler/actions/workflows/release.yml/badge.svg)
 
 A Node.js wrapper for:
 - [pdfinfo](https://manpages.debian.org/testing/poppler-utils/pdfinfo.1.en.html) - To extract metadata and information from a pdf.
